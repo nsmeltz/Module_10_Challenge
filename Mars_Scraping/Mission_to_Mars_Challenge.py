@@ -142,15 +142,8 @@ url = 'https://marshemispheres.com/'
 
 browser.visit(url)
 
-
-# In[17]:
-
-
 # 2. Create a list to hold the images and titles.
 hemisphere_image_urls = []
-
-
-# In[18]:
 
 
 # 3. Write code to retrieve the image urls and titles for each hemisphere.
@@ -195,27 +188,13 @@ for image in images:
     print(title)
     print(image_url)
     
-    
-    
-
-
-# In[19]:
 
 
 # 4. Print the list that holds the dictionary of each image url and title.
 hemisphere_image_urls
 
-
-# In[20]:
-
-
 # 5. Quit the browser
 browser.quit()
-
-
-# ## Deliverable 2: Update the Web App with Mars’s Hemisphere Images and Titles
-
-# In[ ]:
 
 
 
